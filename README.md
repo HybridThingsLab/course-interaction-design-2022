@@ -4,9 +4,9 @@ University of Applied Sciences Augsburg, Faculty of Design, https://www.hs-augsb
 
 teaching stuff: Slawa Gurevich, Christoph Haag, Andreas Muxel, Silke Hilsing
 
-* [Block I: Visuelle Systeme](https://github.com/HybridThingsLab/course-interaction-design-2022/tree/main/Block_I)
-* [Block II: Interaktive Systeme](https://github.com/HybridThingsLab/course-interaction-design-2022/tree/main/Block_II)
-* [Block III: Physische Systeme](https://github.com/HybridThingsLab/course-interaction-design-2022/tree/main/Block_III)
+* [Block I: Visuelle Systeme](https://github.com/HybridThingsLab/course-interaction-design-2022/tree/master/Block_I)
+* [Block II: Interaktive Systeme](https://github.com/HybridThingsLab/course-interaction-design-2022/tree/master/Block_II)
+* [Block III: Physische Systeme](https://github.com/HybridThingsLab/course-interaction-design-2022/tree/master/Block_III)
 
 ## Setup
 In the end there are a thousand ways to code with p5.js - let's stick to the following toolchain to dive into our course so that it will be easier to support each other.
@@ -49,9 +49,9 @@ How to set Chrome as your default browser for Live Server in Visual Studio Code:
 ### Code Repository
 We packed a bunch of examples from this course as well together with the files needed for p5.js in a folder structure on GitHub. We will update this repository from time to time to correct bugs or add new examples. There are two ways to get all these files.
 
-1. __PREFERRED__: In Visual Studio Code click the "Files" Icon, then "Clone Repository", paste the Repository URL https://github.com/HybridThingsLab/course-interaction-design-2021, hit Enter, create a folder for our files and select it as download location.
+1. __PREFERRED__: In Visual Studio Code click the "Files" Icon, then "Clone Repository", paste the Repository URL https://github.com/HybridThingsLab/course-interaction-design-2022, hit Enter, create a folder for our files and select it as download location.
 On Windows Machines you also need to install Git: https://git-scm.com/download/win
-2. Fallback: Download the repository from the GitHub Website (https://github.com/HybridThingsLab/course-interaction-design-2021/archive/main.zip). Use button "Clone or Download" on the top right side of the page, download the ZIP and extract it.
+2. Fallback: Download the repository from the GitHub Website (https://github.com/HybridThingsLab/course-interaction-design-2022/archive/refs/heads/master.zip). Use button "Clone or Download" on the top right side of the page, download the ZIP and extract it.
 
 Whenever we will make a update to the repository, you can pull those changes to your local folder structure:
 
@@ -75,7 +75,7 @@ You will see some files but these are the most important:
 Please create your own code folder somewhere outside our code folder and copy one of the example folders over. You should not chage anythinig inside our code structure because it may interfere with future updates that we may do on the code if you use GIT (Collisions)
 
 ## The "Blocks"
-We structured our course in three "Blocks", static, interactive and physical. Fore some Blocks there also is a Readme in the corresponding subfolder, for example in [Block_I](https://github.com/HybridThingsLab/course-interaction-design-2021/blob/master/Block_I/README.md).
+We structured our course in three "Blocks", static, interactive and physical.
 
 ## Recommended tutorials
 * beginner P5.js tutorials by Daniel Shiffmann on TheCodingTrain, https://thecodingtrain.com/beginners/p5js/
