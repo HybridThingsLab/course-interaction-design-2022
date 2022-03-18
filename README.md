@@ -49,9 +49,10 @@ How to set Chrome as your default browser for Live Server in Visual Studio Code:
 ### Code Repository
 We packed a bunch of examples from this course as well together with the files needed for p5.js in a folder structure on GitHub. We will update this repository from time to time to correct bugs or add new examples. There are two ways to get all these files.
 
-1. __PREFERRED__: In Visual Studio Code click the "Files" Icon, then "Clone Repository", paste the Repository URL https://github.com/HybridThingsLab/course-interaction-design-2022, hit Enter, create a folder for our files and select it as download location.
+1. __BEGINNER__: Download the repository from the GitHub Website (https://github.com/HybridThingsLab/course-interaction-design-2022/archive/refs/heads/master.zip). Use button "Clone or Download" on the top right side of the page, download the ZIP and extract it.
+
+2. __EXPERT__: In Visual Studio Code click the "Files" Icon, then "Clone Repository", paste the Repository URL https://github.com/HybridThingsLab/course-interaction-design-2022, hit Enter, create a folder for our files and select it as download location.
 On Windows Machines you also need to install Git: https://git-scm.com/download/win
-2. Fallback: Download the repository from the GitHub Website (https://github.com/HybridThingsLab/course-interaction-design-2022/archive/refs/heads/master.zip). Use button "Clone or Download" on the top right side of the page, download the ZIP and extract it.
 
 Whenever we will make a update to the repository, you can pull those changes to your local folder structure:
 
