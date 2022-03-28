@@ -34,8 +34,7 @@ function draw() {
     /*
     stroke(255);
     noFill();
-    line(width / 2, 0, round(width / numPendulums) * i, pos);
-    line(width / 2, height, round(width / numPendulums) * i, pos);
+    line(width / 2, height / 2, round(width / numPendulums) * i, pos);
     */
   }
 }
