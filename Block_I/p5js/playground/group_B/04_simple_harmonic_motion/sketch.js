@@ -1,6 +1,5 @@
 // globals
 let numPendulums = 24;
-let startMillis;
 let startTime;
 let speed = 0.0001;
 
