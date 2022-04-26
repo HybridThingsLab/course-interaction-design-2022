@@ -14,9 +14,9 @@ function draw() {
 
   stroke(255, 0, 0);
   if (h > w) {
-    ellipse(w / 2 + rotationY, h / 2 + rotationX, w * 0.8 * (1 + abs(accelerationY)));
+    ellipse(w / 2 + rotationY, h / 2 + rotationX, w * 0.8);
   } else {
-    ellipse(w / 2 + rotationX, h / 2 + rotationY, h * 0.8 * (1 + abs(accelerationY)));
+    ellipse(w / 2 + rotationX, h / 2 + rotationY, h * 0.8);
   }
   noStroke();
 
