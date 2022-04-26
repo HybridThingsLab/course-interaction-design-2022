@@ -1,41 +1,41 @@
 var w = window.innerWidth;
-var h = window.innerHeight;  
+var h = window.innerHeight;
 
 let fS = 24;
 
 function setup() {
-  canvas=createCanvas(w,h);
-  textSize(fS*0.8);
+  canvas = createCanvas(w, h);
+  textSize(fS * 0.8);
   checkSensorPermissions();
 }
 
 function draw() {
   background(255);
 
-  stroke(255,0,0);
-  if ( h > w) {
-    ellipse (w/2, h/2, w*0.8);
+  stroke(255, 0, 0);
+  if (h > w) {
+    ellipse(w / 2 + rotationY, h / 2, w * 0.8);
   } else {
-    ellipse (w/2, h/2, h*0.8);
+    ellipse(w / 2 + rotationX, h / 2, h * 0.8);
   }
   noStroke();
 
   // https://p5js.org/reference/#EventsAcceleration
   // ----
   // https://p5js.org/reference/#/p5/rotationX
-  text('rotationX: ' + rotationX, 20, fS*2);
+  text('rotationX: ' + rotationX, 20, fS * 2);
   // https://p5js.org/reference/#/p5/rotationY
-  text('rotationY: ' + rotationY, 20, fS*3);
+  text('rotationY: ' + rotationY, 20, fS * 3);
   // https://p5js.org/reference/#/p5/rotationZ
-  text('rotationZ: ' + rotationZ, 20, fS*4);
+  text('rotationZ: ' + rotationZ, 20, fS * 4);
   // https://p5js.org/reference/#/p5/accelerationX
-  text('accelerationX: ' + accelerationX, 20, fS*5);
+  text('accelerationX: ' + accelerationX, 20, fS * 5);
   // https://p5js.org/reference/#/p5/accelerationY
-  text('accelerationY: ' + accelerationY, 20, fS*6);
+  text('accelerationY: ' + accelerationY, 20, fS * 6);
   // https://p5js.org/reference/#/p5/accelerationZ
-  text('accelerationZ: '     + accelerationZ, 20, fS*7);
+  text('accelerationZ: ' + accelerationZ, 20, fS * 7);
   // https://p5js.org/reference/#/p5/deviceOrientation
-  text('deviceOrientation: ' + deviceOrientation, 20, fS*8);
+  text('deviceOrientation: ' + deviceOrientation, 20, fS * 8);
 
 }
 
@@ -49,8 +49,8 @@ let sensorPermissionGranted = false;
 
 function checkSensorPermissions() {
   // DeviceOrientationEvent and DeviceMotionEvent
-  if (typeof(DeviceOrientationEvent) !== 'undefined' &&
-      typeof(DeviceOrientationEvent.requestPermission) === 'function') {
+  if (typeof (DeviceOrientationEvent) !== 'undefined' &&
+    typeof (DeviceOrientationEvent.requestPermission) === 'function') {
     // Must be iOS device so we need to ask permission to use sensors
     DeviceOrientationEvent.requestPermission()
       .catch(() => {
@@ -63,7 +63,7 @@ function checkSensorPermissions() {
         throw error;
       })
       .then(() => {
-      // already granted permission
+        // already granted permission
         sensorPermissionGranted = true;
       })
   } else {
@@ -88,8 +88,8 @@ function requestAccess() {
 }
 
 function windowResized() {
-    // assigns new values for width and height variables
-    w = window.innerWidth;
-    h = window.innerHeight;
-    resizeCanvas(w,h);
+  // assigns new values for width and height variables
+  w = window.innerWidth;
+  h = window.innerHeight;
+  resizeCanvas(w, h);
 }
