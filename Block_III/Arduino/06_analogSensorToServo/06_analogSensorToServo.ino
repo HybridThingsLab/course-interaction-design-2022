@@ -1,8 +1,7 @@
 // use one of these analog sensors from your Grove Kit
 // https://wiki.seeedstudio.com/Grove-Rotary_Angle_Sensor/
 // https://wiki.seeedstudio.com/Grove-Light_Sensor/
-// https://wiki.seeedstudio.com/Grove-Temperature_Sensor/ > look at code example
-// https://wiki.seeedstudio.com/Grove-Sound_Sensor/ > look at code example
+// 
 
 // use servo from your Grove Kit
 // https://wiki.seeedstudio.com/Grove-Servo/
